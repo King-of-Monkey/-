@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		376064B21D82AB1C00C737B1 /* PullView.m in Sources */ = {isa = PBXBuildFile; fileRef = 376064B11D82AB1C00C737B1 /* PullView.m */; };
 		37AB7CDF1D815A4E000E5842 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37AB7CDE1D815A4E000E5842 /* main.m */; };
 		37AB7CE21D815A4E000E5842 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37AB7CE11D815A4E000E5842 /* AppDelegate.m */; };
 		37AB7CE51D815A4E000E5842 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37AB7CE41D815A4E000E5842 /* ViewController.m */; };
@@ -15,6 +16,9 @@
 		37AB7CED1D815A4E000E5842 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37AB7CEB1D815A4E000E5842 /* LaunchScreen.storyboard */; };
 		37AB7CF81D815A4E000E5842 /* _____CAAnimationGroupTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37AB7CF71D815A4E000E5842 /* _____CAAnimationGroupTests.m */; };
 		37AB7D031D815A4E000E5842 /* _____CAAnimationGroupUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37AB7D021D815A4E000E5842 /* _____CAAnimationGroupUITests.m */; };
+		37AB7D131D815AE4000E5842 /* bt_redlines.png in Resources */ = {isa = PBXBuildFile; fileRef = 37AB7D101D815AE4000E5842 /* bt_redlines.png */; };
+		37AB7D141D815AE4000E5842 /* bt_redlines@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37AB7D111D815AE4000E5842 /* bt_redlines@2x.png */; };
+		37AB7D151D815AE4000E5842 /* bt_redlines@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37AB7D121D815AE4000E5842 /* bt_redlines@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		376064B01D82AB1C00C737B1 /* PullView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PullView.h; sourceTree = "<group>"; };
+		376064B11D82AB1C00C737B1 /* PullView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PullView.m; sourceTree = "<group>"; };
 		37AB7CDA1D815A4E000E5842 /* 动画测试_CAAnimationGroup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "动画测试_CAAnimationGroup.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37AB7CDE1D815A4E000E5842 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		37AB7CE01D815A4E000E5842 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +57,9 @@
 		37AB7CFE1D815A4E000E5842 /* 动画测试_CAAnimationGroupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "动画测试_CAAnimationGroupUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37AB7D021D815A4E000E5842 /* _____CAAnimationGroupUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____CAAnimationGroupUITests.m"; sourceTree = "<group>"; };
 		37AB7D041D815A4E000E5842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37AB7D101D815AE4000E5842 /* bt_redlines.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bt_redlines.png; sourceTree = "<group>"; };
+		37AB7D111D815AE4000E5842 /* bt_redlines@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bt_redlines@2x.png"; sourceTree = "<group>"; };
+		37AB7D121D815AE4000E5842 /* bt_redlines@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bt_redlines@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +110,13 @@
 		37AB7CDC1D815A4E000E5842 /* 动画测试_CAAnimationGroup */ = {
 			isa = PBXGroup;
 			children = (
+				37AB7D101D815AE4000E5842 /* bt_redlines.png */,
+				37AB7D111D815AE4000E5842 /* bt_redlines@2x.png */,
+				37AB7D121D815AE4000E5842 /* bt_redlines@3x.png */,
 				37AB7CE01D815A4E000E5842 /* AppDelegate.h */,
 				37AB7CE11D815A4E000E5842 /* AppDelegate.m */,
+				376064B01D82AB1C00C737B1 /* PullView.h */,
+				376064B11D82AB1C00C737B1 /* PullView.m */,
 				37AB7CE31D815A4E000E5842 /* ViewController.h */,
 				37AB7CE41D815A4E000E5842 /* ViewController.m */,
 				37AB7CE61D815A4E000E5842 /* Main.storyboard */,
@@ -244,8 +258,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				37AB7CED1D815A4E000E5842 /* LaunchScreen.storyboard in Resources */,
+				37AB7D131D815AE4000E5842 /* bt_redlines.png in Resources */,
+				37AB7D141D815AE4000E5842 /* bt_redlines@2x.png in Resources */,
 				37AB7CEA1D815A4E000E5842 /* Assets.xcassets in Resources */,
 				37AB7CE81D815A4E000E5842 /* Main.storyboard in Resources */,
+				37AB7D151D815AE4000E5842 /* bt_redlines@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				37AB7CE51D815A4E000E5842 /* ViewController.m in Sources */,
+				376064B21D82AB1C00C737B1 /* PullView.m in Sources */,
 				37AB7CE21D815A4E000E5842 /* AppDelegate.m in Sources */,
 				37AB7CDF1D815A4E000E5842 /* main.m in Sources */,
 			);
@@ -498,6 +516,7 @@
 				37AB7D091D815A4E000E5842 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		37AB7D0A1D815A4E000E5842 /* Build configuration list for PBXNativeTarget "动画测试_CAAnimationGroupTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +525,7 @@
 				37AB7D0C1D815A4E000E5842 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		37AB7D0D1D815A4E000E5842 /* Build configuration list for PBXNativeTarget "动画测试_CAAnimationGroupUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +534,7 @@
 				37AB7D0F1D815A4E000E5842 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
